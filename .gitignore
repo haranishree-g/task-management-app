@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+
+# Database & local data
+*.db
+*.db-journal
+tasks.db
+
+# Environment variables & secrets
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
